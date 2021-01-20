@@ -1,0 +1,24 @@
+.oficina {
+    padding-top: 50px;
+    text-align: center;
+    height: 400px;
+    background-color: rgb(218, 129, 28);
+}
+
+.oficina img {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.oficina-info {
+    padding-top: 50px;
+    margin: auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oficina-info p {
+    font-size: 1.2rem;
+}

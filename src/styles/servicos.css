@@ -1,0 +1,32 @@
+.service {
+    height:400px;
+    background-position: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.service h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+.services {
+    margin: 30px auto 0 auto;
+    width: 400px;
+    text-align: center;
+}
+
+.services h3 {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+.services ul {
+    margin-left: 30px;
+}
+
+.services ul li {
+    font-size: 1.4rem;
+    text-align: left;
+}

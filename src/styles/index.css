@@ -1,0 +1,16 @@
+:root {
+    /*variáves css*/
+    --color-marrom: #613117;
+    --color-bage: #FAAF87;
+    --color-laranja: #E07236;
+    --color-laranja-cinza:#614434;
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Roboto', sans-serif;
+}
