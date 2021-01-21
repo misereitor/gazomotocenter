@@ -9,23 +9,55 @@ function Loja() {
                 <div className="produtos">
                     <div className="parceiros">
                         <h3>Trabalhamos com várias marcas parceiras</h3>
-                        <ul>
-                            <li>parceiro 1</li>
-                            <li>parceiro 2</li>
-                            <li>parceiro 3</li>
-                            <li>parceiro 4</li>
-                            <li>parceiro 5</li>
-                        </ul>
+                        <div className="lista-parceiros">
+                            <ul>
+                                <li>HONDA</li>
+                                <li>YAMAHA</li>
+                                <li>2BARRAS</li>
+                                <li>BHD</li>
+                                <li>CATIMOTO</li>
+                                <li>CONTROLFLEX</li>
+                                <li>DANIDREA</li>
+                                <li>DANNIX</li>
+                                <li>DIAFRAG</li>
+                            </ul>
+                            <ul>
+                                <li>EMBUS</li>
+                                <li>EUROBREQ</li>
+                                <li>FISCHER</li>
+                                <li>GULF</li>
+                                <li>HAMP</li>
+                                <li>VEDAMOTOS</li>
+                                <li>SHELL</li>
+                                <li>RIALLI</li>
+                                <li>REDFOX</li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="vendas">
                         <h3>Trabalhamos com vendas de peças, serviços, Motos usadas e muito mais</h3>
-                        <ul>
-                            <li>produto 1</li>
-                            <li>produto 2</li>
-                            <li>produto 3</li>
-                            <li>produto 4</li>
-                            <li>produto 5</li>
-                        </ul>
+                        <div className="lista-produtos">
+                            <ul>
+                                <li>Pneu Pirelli</li>
+                                <li>Bateria</li>
+                                <li>Óleo</li>
+                                <li>Cabeçote</li>
+                                <li>Caixa de macha</li>
+                                <li>Tanque</li>
+                                <li>Escapamento</li>
+                                <li>Lâmpada</li>
+                            </ul>
+                            <ul>
+                                <li>CDI's</li>
+                                <li>Filtro de combustivél</li>
+                                <li>Iluminação</li>
+                                <li>Velas de inigção</li>
+                                <li>Kit conversores</li>
+                                <li>Motor de partidas</li>
+                                <li>Paineis e componentes</li>
+                                <li>Fiação</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

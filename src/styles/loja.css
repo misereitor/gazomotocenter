@@ -1,10 +1,10 @@
 .container-loja {
-    background-color: var(--color-laranja);
-    height: 500px;
+    background-color: var(--color-laranja-escuro);
+    height: 600px;
 }
 
 .container-loja .h2-loja {
-    color: aqua;
+    color: #28180f;
     font-size: 3rem;
     text-align: center;
     padding-top: 40px;
@@ -25,17 +25,33 @@
 }
 
 .parceiros, .vendas {
-    width: 400px;
+    width: 450px;
 }
 
 .parceiros h3, .vendas h3 {
-    color: rgb(238, 160, 87);
+    width: 100%;
+    color: #c1e136;
     height: 50px;
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
+.vendas h3 {
+    margin-top: -23.6px;
+}
+
 .produtos ul li {
-    color: #fff;
+    color: #28180f;
     font-size: 1.3rem;
+}
+
+.lista-parceiros, .lista-produtos {
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lista-produtos {
+    margin-left: -50px;
 }

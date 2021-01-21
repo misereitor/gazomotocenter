@@ -1,12 +1,13 @@
 footer {
-    background-color: rgb(175, 82, 45);
+    background-color: var(--color-marrom);
     bottom: 0;
     height: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: var(--color-branco-laranja);
 }
 
 .footer .social a {
-    color: black;
+    color: var(--color-branco-laranja);
 }

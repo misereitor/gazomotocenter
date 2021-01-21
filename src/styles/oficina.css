@@ -2,7 +2,7 @@
     padding-top: 50px;
     text-align: center;
     height: 400px;
-    background-color: rgb(218, 129, 28);
+    background-color: var(--color-laranja);
 }
 
 .oficina img {
@@ -20,5 +20,12 @@
 }
 
 .oficina-info p {
+    color: #28180f;
     font-size: 1.2rem;
+}
+
+.oficina h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #28180f;
 }
