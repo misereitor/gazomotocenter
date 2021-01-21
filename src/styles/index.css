@@ -1,12 +1,10 @@
 :root {
     /*variáves css*/
-    --color-laranja-escuro: #E17336;
+    --color-laranja-escuro: #e17336;
     --color-laranja: #eb8a57;
     --color-laranja-claro: #f3a177;
-    --color-laranja-branco: #f9b998;
-    --color-branco-laranja: #fed0b9;
-    --color-branco-laranja-claro: #ffe7dc;
-    --color-marrom: #28180f;
+    --color-branco: #ffffff;
+    --color-marrom: #482918;
 }
 
 * {

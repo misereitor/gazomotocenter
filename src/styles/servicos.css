@@ -1,8 +1,6 @@
 .service {
     height:400px;
-    background-position: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color: var(--color-laranja);
 }
 
 .service h2 {

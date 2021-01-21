@@ -19,7 +19,7 @@ header {
 
 .links a {
     margin: 0 20px;
-    color: var(--color-branco-laranja);
+    color: #f9b998;
     text-decoration: none;
     font-size: 1.2rem;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Servicos() {
     return(
-        <div className="service" style={{backgroundImage: "url(./img/servicos/container.jpg)"}}>
+        <div className="service">
             <h2>Serviços</h2>
             <div className="services">
                 <h3>Prestamos todo tipo de serviço</h3>
