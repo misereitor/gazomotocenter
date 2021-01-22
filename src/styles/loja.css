@@ -18,14 +18,14 @@
 
 .produtos {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .parceiros, .vendas {
-    width: 450px;
+    width: 500px;
 }
 
 .parceiros h3, .vendas h3 {
@@ -43,6 +43,7 @@
 .produtos ul li {
     color: #28180f;
     font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 .lista-parceiros, .lista-produtos {
@@ -54,4 +55,112 @@
 
 .lista-produtos {
     margin-left: -50px;
+}
+
+@media(max-width:1300px) {
+    .produtos {
+        max-width: 900px;
+    }
+
+    .parceiros h3, .vendas h3 {
+        font-size: 1.3rem;
+    }
+
+    .produtos ul li {
+        font-size: 1rem;
+    }
+    
+    .lista-produtos {
+        margin-left: -88px;
+    }
+}
+
+@media(max-width:1000px) {
+    .produtos {
+        max-width: 700px;
+    }
+
+    .parceiros h3, .vendas h3 {
+        font-size: 1rem;
+    }
+
+    .produtos ul li {
+        font-size: 0.8rem;
+    }
+    
+    .lista-produtos {
+        margin-left: -50px;
+    }
+
+    .lista-parceiros, .lista-produtos {
+        margin-left: -70px;
+    }
+
+    .container-loja {
+        height: 500px;
+    }
+}
+
+@media(max-width:800px) {
+    .produtos {
+        max-width: 550px;
+    }
+
+    .lista-produtos {
+        margin-left: -50px;
+    }
+
+    .lista-parceiros, .lista-produtos {
+        margin-left: -30px;
+    }
+}
+
+@media(max-width:550px) {
+    .produtos {
+        max-width: 450px;
+    }
+
+    .lista-produtos {
+        margin-left: 0;
+    }
+
+    .vendas h3 {
+        margin-top: 0;
+    }
+}
+
+@media(max-width:450px) {
+    .container-loja {
+        height: 400px;
+    }
+
+    .produtos {
+        max-width: 380px;
+    }
+
+    .container-loja .h2-loja {
+        font-size: 2rem;
+
+    }
+    
+    .h2-lider {
+        font-size: 1.5rem;
+    }
+
+    .parceiros h3, .vendas h3 {
+
+        font-size: .8rem;
+    }
+
+    .parceiros {
+        margin-right: 10px;
+    }
+
+    .produtos ul li {
+        font-size: .5rem;
+    }
+
+    .vendas h3 {
+        margin-top: -8.6px;
+    }
 }

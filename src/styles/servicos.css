@@ -6,13 +6,13 @@
 .service h2 {
     text-align: center;
     padding-top: 50px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #28180f;
 }
 
 .services {
     margin: 30px auto 0 auto;
-    width: 600px;
+    width: 700px;
     text-align: center;
 }
 
@@ -30,9 +30,72 @@
 .services ul {
     margin-left: 30px;
     color: #28180f;
+    font-weight: bolder;
 }
 
 .services ul li {
     font-size: 1.5rem;
     text-align: left;
+}
+
+@media(max-width:1000px) {
+    .services {
+        width: 600px;
+    }
+}
+
+@media(max-width:700px) {
+    .services {
+        width: 550px;
+    }
+
+    .services h3 {
+        font-size: 1.3rem;
+    }
+
+    .services ul li {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:650px) {
+    .services {
+        width: 450px;
+    }
+
+    .services h3 {
+        font-size: 1.2rem;
+    }
+
+    .services ul li {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:450px) {
+    .services {
+        width: 330px;
+    }
+
+    .services h3 {
+        font-size: 1.2rem;
+    }
+
+    .services ul li {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:350px) {
+    .services {
+        width: 280px;
+    }
+
+    .services h3 {
+        font-size: 1.2rem;
+    }
+
+    .services ul li {
+        font-size: .8rem;
+    }
 }

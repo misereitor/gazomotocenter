@@ -1,5 +1,5 @@
 .container {
-    height: calc(100vh - 100px);
+    height: 80vh;
     flex: 1;
     overflow: hidden;
 }
@@ -7,7 +7,7 @@
 .photos {
     height: 100vh;
     display: flex;
-    transition: all ease 0.8s;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.8s;
 }
 
 .slide-home {
@@ -42,7 +42,21 @@
 
 .sombra {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 80vh;
     position: absolute;
     background-color: rgba(156, 70, 0, 0.377);
+}
+
+@media(max-width:800px) {
+    .container {
+        height: 70vh;
+    }
+
+    .slide-home {
+        background-attachment: scroll;
+    }
+
+    .sombra {
+        height: 70vh;
+    }
 }

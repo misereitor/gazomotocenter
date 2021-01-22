@@ -2,10 +2,14 @@ footer {
     background-color: var(--color-marrom);
     bottom: 0;
     height: 200px;
+    color: #f9b998;
+}
+
+.footer-footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #f9b998;
+    padding-top: 30px;
 }
 
 .footer .social a {
@@ -36,4 +40,127 @@ footer {
 
 .social .fa-whatsapp {
     margin-left: 10px;
+}
+
+.linkedin {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.linkedin a {
+    color: #f9b998;
+    text-decoration: none;
+}
+
+.linkedin img {
+    width: 20px;
+}
+
+@media(max-width:700px) {
+    .rodape h4, footer p, footer a {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:550px) {
+    .rodape h4, footer p, footer a {
+        font-size: 0.7rem;
+    }
+
+    .linkedin img {
+        width: 10px;
+    }
+
+    .social img {
+        margin-right: 10px;
+        width: 13px;
+    }
+    
+    .social .fa-facebook {
+        width: 13px;
+        height: 13px;
+    }
+
+    .instagram img {
+        width: 13px;
+    }
+}
+
+@media(max-width:500px) {
+    .rodape h4, footer p, footer a {
+        font-size: 0.6rem;
+    }
+
+    .linkedin img {
+        width: 8px;
+    }
+
+    .social img {
+        margin-right: 10px;
+        width: 10px;
+    }
+    
+    .social .fa-facebook {
+        width: 10px;
+        height: 10px;
+    }
+
+    .instagram img {
+        width: 10px;
+    }
+}
+
+@media(max-width:410px) {
+    footer {
+        height: 150px;
+    }
+    .rodape h4, footer p, footer a {
+        font-size: 0.4rem;
+    }
+
+    .linkedin img {
+        width: 5px;
+    }
+
+    .social img {
+        margin-right: 10px;
+        width: 6px;
+    }
+    
+    .social .fa-facebook {
+        width: 6px;
+        height: 6px;
+    }
+
+    .instagram img {
+        width: 6px;
+    }
+}
+
+@media(max-width:284px) {
+    footer {
+        height: 150px;
+    }
+    .rodape h4, footer p, footer a {
+        font-size: 0.2rem;
+    }
+
+    .linkedin img {
+        width: 5px;
+    }
+
+    .social img {
+        margin-right: 10px;
+        width: 6px;
+    }
+    
+    .social .fa-facebook {
+        width: 6px;
+        height: 6px;
+    }
+
+    .instagram img {
+        width: 6px;
+    }
 }

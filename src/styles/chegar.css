@@ -1,5 +1,4 @@
 .como-chegar {
-    min-width: 1000px;
     max-height: 700px;
     min-height: 600px;
     background-repeat: no-repeat;
@@ -8,11 +7,138 @@
 }
 
 .map {
-    padding-top: 300px;
-    margin-left: 800px;
+    padding-top: 200px;
+    margin-left: 1200px;
 }
 
 .como-chegar iframe {
-    min-width: 400px;
-    min-height: 250px;
+    
+    min-height: 300px;
+}
+
+@media(max-width:1700px) {
+    .map {
+        padding-top: 230px;
+        margin-left: 1000px;
+    }
+}
+
+@media(max-width:1500px) {
+    .map {
+        padding-top: 260px;
+        margin-left: 800px;
+    }
+}
+
+@media(max-width:1300px) {
+    .map {
+        padding-top: 100px;
+        margin-left: 700px;
+    }
+    .como-chegar iframe {
+        min-width: 400px;
+        min-height: 250px;
+    }
+    .como-chegar {
+        min-height: 400px;
+        max-height: 500px;
+    }
+}
+
+@media(max-width:1100px) {
+    .map {
+        padding-top: 100px;
+        margin-left: 600px;
+    }
+}
+
+@media(max-width:1000px) {
+    .map {
+        padding-top: 100px;
+        margin-left: 500px;
+    }
+}
+
+@media(max-width:900px) {
+    .map {
+        padding-top: 100px;
+        margin-left: 400px;
+    }
+}
+
+@media(max-width:800px) {
+    .como-chegar {
+        min-height: 200px;
+        max-height: 300px;
+    }
+
+    .map {
+        padding-top: 80px;
+        margin-left: 400px;
+    }
+
+    .como-chegar iframe {
+        min-width: 300px;
+        min-height: 200px;
+    }
+}
+
+@media(max-width:700px) {
+    .map {
+        padding-top: 80px;
+        margin-left: 200px;
+    }
+
+    .como-chegar iframe {
+        min-width: 200px;
+        min-height: 100px;
+    }
+}
+
+@media(max-width:500px) {
+    .como-chegar {
+        height: 200px;
+    }
+
+    .map {
+        padding-top: 80px;
+        margin-left: 200px;
+    }
+
+    .como-chegar iframe {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media(max-width:400px) {
+    .como-chegar {
+        min-height: 154px;
+        height: 100px;
+    }
+    .map {
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+
+    .como-chegar iframe {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media(max-width:300px) {
+    .como-chegar {
+        min-height: 100px;
+        height: 100px;
+    }
+    .map {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+    .como-chegar iframe {
+        width: 100px;
+        height: 50px;
+    }
 }

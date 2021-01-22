@@ -13,19 +13,75 @@
 .oficina-info {
     padding-top: 50px;
     margin: auto;
-    width: 800px;
+    width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .oficina-info p {
+    width: 600px;
     color: #28180f;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .oficina h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #28180f;
+}
+
+@media(max-width:1000px) {
+    .oficina img {
+        width: 180px;
+        margin-right: 50px;
+    }
+
+    .oficina-info {
+        width: 800px;
+    }
+
+    .oficina-info p {
+        width: 500px;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:800px) {
+    .oficina-info {
+        width: 600px;
+    }
+
+    .oficina-info p {
+        width: 400px;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:650px) {
+    .oficina img {
+        display: none;
+    }
+
+    .oficina-info {
+        max-width: 400px;
+    }
+
+    .oficina-info p {
+        width: 400px;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:400px) {
+    .oficina-info {
+        max-width: 300px;
+    }
+}
+
+@media(max-width:400px) {
+    .oficina-info {
+        max-width: 200px;
+    }
 }
