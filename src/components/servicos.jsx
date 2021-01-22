@@ -13,6 +13,7 @@ export default function Servicos() {
                         <li>Revisão</li>
                         <li>Motor</li>
                         <li>Pintura</li>
+                        <li>Reboque de moto</li>
                     </ul>
                     <ul>
                         <li>Vazamentos</li>
@@ -20,6 +21,7 @@ export default function Servicos() {
                         <li>Embreagem</li>
                         <li>Elétrica</li>
                         <li>Troca de peças em geral</li>
+                        <li>Serviços de transporte</li>
                     </ul>
                 </div>
             </div>

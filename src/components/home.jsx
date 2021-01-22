@@ -2,6 +2,14 @@ import React from 'react';
 
 function Home(){
     let currentSlide = 0
+    let stopNextSlide = () => {
+        clearInterval(slite)
+        toNext()
+    }
+    let stopPrevSlide = () => {
+        clearInterval(slite)
+        toPrev()
+    }
     let toPrev = () => {
         currentSlide --
         if (currentSlide < 0) {
@@ -23,13 +31,14 @@ function Home(){
         let newMargin = (currentSlide * slideWidth)
         document.querySelector(".photos").style.marginLeft = `-${newMargin}px`
     }
-    setInterval(toNext, 3000)
+    const slite = setInterval(toNext, 4000)
+
     return (
         <div className="container">
             <div className="sombra"></div>
             <div className="slide-controlls">
-                <div className="slide-control" onClick={toPrev}>{`<`}</div>
-                <div className="slide-control" onClick={toNext}>{`>`}</div>
+                <div className="slide-control" onMouseDown={stopPrevSlide}>{`<`}</div>
+                <div className="slide-control" onMouseDown={stopNextSlide}>{`>`}</div>
             </div>
             <div className="photos" style={{width: "calc(100vw * 3)"}}>
                 <div className="slide-home" style={{backgroundImage: "url(./img/home/gazo_cliente.jpeg)", backgroundRepeat:"no-repeat"}}></div>
