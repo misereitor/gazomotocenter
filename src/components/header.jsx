@@ -12,12 +12,14 @@ class Header extends Component {
             scroll.scrollTo(650);
         } else if (window.innerHeight >= 800) {
             scroll.scrollTo(600)
+        }else if (window.innerHeight >= 718) {
+            scroll.scrollTo(300)
         }else if (window.innerHeight >= 700) {
             scroll.scrollTo(500)
         }else if (window.innerHeight >= 640) {
             scroll.scrollTo(300)
         }else if (window.innerHeight >= 500) {
-            scroll.scrollTo(400)
+            scroll.scrollTo(300)
         }else if (window.innerHeight >= 400) {
             scroll.scrollTo(330)
         } else if (window.innerHeight >= 320) {

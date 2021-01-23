@@ -1,7 +1,7 @@
 footer {
     background-color: var(--color-marrom);
     bottom: 0;
-    height: 200px;
+    height: 250px;
     color: #f9b998;
 }
 
@@ -11,6 +11,23 @@ footer {
     align-items: center;
     padding-top: 30px;
 }
+
+.rodape-endereco {
+    border: double #f9b998 4px;
+    padding: 5px;
+    line-height: 22px;
+}
+
+.rodape-atendimento {
+    border: double #f9b998 4px;
+    padding: 5px;
+    line-height: 22px;
+}
+
+.social {
+    border: double #f9b998 4px;
+}
+
 
 .footer .social a {
     color: #f9b998;
@@ -44,8 +61,14 @@ footer {
 
 .linkedin {
     text-align: center;
-    margin-top: 20px;
     cursor: pointer;
+}
+
+.rodape-rodape {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .linkedin a {
@@ -57,13 +80,13 @@ footer {
     width: 20px;
 }
 
-@media(max-width:700px) {
+@media(max-width:800px) {
     .rodape h4, footer p, footer a {
         font-size: 0.8rem;
     }
 }
 
-@media(max-width:550px) {
+@media(max-width:660px) {
     .rodape h4, footer p, footer a {
         font-size: 0.7rem;
     }
@@ -85,11 +108,19 @@ footer {
     .instagram img {
         width: 13px;
     }
+
+    .rodape-endereco {
+        line-height: 18px;
+    }
+    
+    .rodape-atendimento {
+        line-height: 18px;
+    }
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     .rodape h4, footer p, footer a {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 
     .linkedin img {
@@ -109,11 +140,49 @@ footer {
     .instagram img {
         width: 10px;
     }
+
+    .rodape-endereco {
+        line-height: 16px;
+    }
+    
+    .rodape-atendimento {
+        line-height: 16px;
+    }
+
+    footer {
+        height: 200px;
+    }
+}
+
+@media(max-width:450px) {
+    .rodape h4, footer p, footer a {
+        font-size: 0.5rem;
+    }
+    
+    .rodape-endereco {
+        line-height: 16px;
+        border: solid #f9b998 1px;
+        padding: 0;
+    }
+    
+    .rodape-atendimento {
+        line-height: 16px;
+        border: solid #f9b998 1px;
+        padding: 0;
+    }
+    
+    .social {
+        border: solid #f9b998 1px;
+    }
+
+    .social a{
+        margin: 7px;
+    }
 }
 
 @media(max-width:410px) {
     footer {
-        height: 150px;
+        height: 170px;
     }
     .rodape h4, footer p, footer a {
         font-size: 0.4rem;
@@ -136,14 +205,24 @@ footer {
     .instagram img {
         width: 6px;
     }
+
+    .rodape-endereco {
+        line-height: 10px;
+    }
+    
+    .rodape-atendimento {
+        line-height: 10px;
+    }
+
+    .social a{
+        margin: 5px;
+    }
 }
 
-@media(max-width:284px) {
-    footer {
-        height: 150px;
-    }
+
+@media(max-width:340px) {
     .rodape h4, footer p, footer a {
-        font-size: 0.2rem;
+        font-size: 0.4rem;
     }
 
     .linkedin img {
@@ -162,5 +241,39 @@ footer {
 
     .instagram img {
         width: 6px;
+    }
+
+    .rodape-endereco {
+        line-height: 10px;
+    }
+    
+    .rodape-atendimento {
+        line-height: 10px;
+    }
+    
+    .social a{
+        margin: 4px;
+    }
+}
+
+@media(max-width:320px) {
+    footer {
+        height: 280px;
+    }
+    .footer-footer {
+        display: block;
+        margin: auto 10px;
+    }
+
+    .rodape h4, footer p, footer a {
+        font-size: 0.6rem;
+    }
+    
+    .rodape-atendimento {
+        margin-top: 10px;
+    }
+    
+    .social {
+        margin-top: 10px;
     }
 }

@@ -84,4 +84,8 @@
         background-size: 500px;
         background-position: -60px 30px;
     }
+
+    .slide-controlls {
+        margin-top: 25px;
+    }
 }
