@@ -8,103 +8,96 @@ class Header extends Component {
     };
 
     scrollLoja = () => {
-        if (window.innerHeight >= 1200) {
+        if (window.innerHeight >= 1200 && window.innerWidth > 500) {
             scroll.scrollTo(650);
-        } else if (window.innerHeight >= 800) {
+        } else if (window.innerHeight >= 800 && window.innerWidth > 500) {
             scroll.scrollTo(600)
-        }else if (window.innerHeight >= 718) {
+        }else if (window.innerHeight >= 718 && window.innerWidth > 500) {
             scroll.scrollTo(300)
-        }else if (window.innerHeight >= 700) {
+        }else if (window.innerHeight >= 700 && window.innerWidth > 500) {
             scroll.scrollTo(500)
-        }else if (window.innerHeight >= 640) {
+        }else if (window.innerHeight >= 640 && window.innerWidth > 500) {
             scroll.scrollTo(300)
-        }else if (window.innerHeight >= 500) {
+        }else if (window.innerHeight >= 500 && window.innerWidth > 500) {
             scroll.scrollTo(300)
-        }else if (window.innerHeight >= 400) {
+        }else if (window.innerHeight >= 400 && window.innerWidth > 500) {
             scroll.scrollTo(330)
-        } else if (window.innerHeight >= 320) {
+        } else if (window.innerHeight >= 320 && window.innerWidth > 500) {
             scroll.scrollTo(250)
-        } else if (window.innerHeight >= 300) {
-            scroll.scrollTo(280)
+        } else if (window.innerHeight >= 300 && window.innerWidth > 500) {
+            scroll.scrollTo(220)
         } else {
             scroll.scrollTo(200)
         }
     };
 
     scrollServices = () => {
-        if (window.innerHeight >= 1200) {
+        if (window.innerHeight >= 1200 && window.innerWidth > 500) {
             scroll.scrollTo(1200);
-        } else if (window.innerHeight >= 800) {
+        } else if (window.innerHeight >= 800 && window.innerWidth > 500) {
             scroll.scrollTo(1080)
-        } else if (window.innerHeight >= 640) {
-            scroll.scrollTo(700)
-        } else if (window.innerHeight >= 500) {
-            scroll.scrollTo(990)
-        } else if (window.innerHeight >= 410) {
+        } else if (window.innerHeight >= 640 && window.innerWidth > 500) {
+            scroll.scrollTo(800)
+        } else if (window.innerHeight >= 500 && window.innerWidth > 500) {
+            scroll.scrollTo(900)
+        } else if (window.innerHeight >= 410 && window.innerWidth > 500) {
             scroll.scrollTo(830)
-        } else if (window.innerHeight >= 400) {
-            scroll.scrollTo(950)
-        } else if (window.innerHeight >= 360) {
-            scroll.scrollTo(800)
-        } else if (window.innerHeight >= 320) {
+        } else if (window.innerHeight >= 400 && window.innerWidth > 500) {
             scroll.scrollTo(750)
-        } else if (window.innerHeight >= 300) {
-            scroll.scrollTo(880)
-        } else {
+        } else if (window.innerHeight >= 360 && window.innerWidth > 500) {
             scroll.scrollTo(800)
+        } else if (window.innerHeight >= 320 && window.innerWidth > 500) {
+            scroll.scrollTo(750)
+        } else if (window.innerHeight >= 300 && window.innerWidth > 500) {
+            scroll.scrollTo(730)
+        } else {
+            scroll.scrollTo(700)
         }
     };
 
-    scrollOficina = () => {
-        if (window.innerHeight >= 1200) {
+    scrollOficina = () => { 
+        if (window.innerHeight >= 1200 && window.innerWidth > 500) {
             scroll.scrollTo(1700);
-        } else if (window.innerHeight >= 1000) {
+        } else if (window.innerHeight >= 1000 && window.innerWidth > 500) {
             scroll.scrollTo(1600);
-        } else if (window.innerHeight >= 800) {
+        } else if (window.innerHeight >= 800 && window.innerWidth > 500) {
             scroll.scrollTo(1550)
-        } else if (window.innerHeight >= 800) {
+        } else if (window.innerHeight >= 800 && window.innerWidth > 500) {
             scroll.scrollTo(1500)
-        } else if (window.innerHeight >= 640) {
-            scroll.scrollTo(1000)
-        } else if (window.innerHeight >= 500) {
-            scroll.scrollTo(1400)
-        } else if (window.innerHeight >= 410) {
+        } else if (window.innerHeight >= 500 && window.innerWidth > 500) {
+            scroll.scrollTo(1300)
+        } else if (window.innerHeight >= 410 && window.innerWidth > 500) {
             scroll.scrollTo(1200)
-        } else if (window.innerHeight >= 400) {
+        } else if (window.innerHeight >= 400 && window.innerWidth > 500) {
             scroll.scrollTo(1320)
-        }  else if (window.innerHeight >= 360) {
+        }  else if (window.innerHeight >= 360 && window.innerWidth > 500) {
             scroll.scrollTo(1180)
-        } else if (window.innerHeight >= 320) {
-            scroll.scrollTo(1150)
-        } else if (window.innerHeight >= 300) {
-            scroll.scrollTo(1240)
         } else {
             scroll.scrollTo(1150)
-            
         }
     }
 
     scrollChegar = () => {
-        if (window.innerHeight >= 1200) {
+        if (window.innerHeight >= 1200 && window.innerWidth > 500) {
             scroll.scrollToBottom()
-        }else if (window.innerHeight >= 800) {
+        }else if (window.innerHeight >= 800 && window.innerWidth > 500) {
             scroll.scrollTo(2050)
-        }else if (window.innerHeight >= 640) {
-            scroll.scrollTo(1250)
-        } else if (window.innerHeight >= 600) {
+        }else if (window.innerHeight >= 640 && window.innerWidth > 500) {
+            scroll.scrollTo(1700)
+        } else if (window.innerHeight >= 600 && window.innerWidth > 500) {
             scroll.scrollTo(1950)
-        } else if (window.innerHeight >= 500) {
+        } else if (window.innerHeight >= 500 && window.innerWidth > 500) {
             scroll.scrollTo(2000)
-        } else if (window.innerHeight >= 410) {
+        } else if (window.innerHeight >= 410 && window.innerWidth > 500) {
             scroll.scrollTo(1600)
-        } else if (window.innerHeight >= 400) {
+        } else if (window.innerHeight >= 400 && window.innerWidth > 500) {
             scroll.scrollTo(1950)
-        } else if (window.innerHeight >= 360) {
+        } else if (window.innerHeight >= 360 && window.innerWidth > 500) {
             scroll.scrollTo(1600)
-        } else if (window.innerHeight >= 320) {
+        } else if (window.innerHeight >= 320 && window.innerWidth > 500) {
             scroll.scrollTo(1580)
-        } else if (window.innerHeight >= 300) {
-            scroll.scrollTo(1900)
+        } else if (window.innerHeight >= 300 && window.innerWidth > 500) {
+            scroll.scrollTo(1580)
         } else {
             scroll.scrollTo(1800)
         }
