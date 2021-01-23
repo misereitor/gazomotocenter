@@ -5,9 +5,9 @@ export default function Servicos() {
         <div className="service">
             <h2>Serviços</h2>
             <div className="services">
-                <h3>Prestamos todo tipo de serviço</h3>
-                <div className="lista-servico">
-                    <ul>
+                <h3 data-anime="botton">Prestamos todo tipo de serviço</h3>
+                <div className="lista-servico" >
+                    <ul data-anime="left">
                         <li>Troca de óleo</li>
                         <li>Troca de pneu</li>
                         <li>Revisão</li>
@@ -15,7 +15,7 @@ export default function Servicos() {
                         <li>Pintura</li>
                         <li>Reboque de moto</li>
                     </ul>
-                    <ul>
+                    <ul data-anime="rigth">
                         <li>Vazamentos</li>
                         <li>Suspenção</li>
                         <li>Embreagem</li>

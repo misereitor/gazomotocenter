@@ -5,8 +5,8 @@ function Oficina() {
         <div className="oficina">
             <h2>Oficina</h2>
             <div className="oficina-info">
-                <img src="./img/oficina/moto-corrente.png" alt=""/>
-                <p>Com os nosso profissionais qualificados na área de manutenção de motos, fazemos o máximo para a satisfação dos nosso clientes, somos uma empresa completa e estamos aqui para o bem da sua moto!</p>
+                <img data-anime="left" src="./img/oficina/moto-corrente.png" alt=""/>
+                <p data-anime="rigth">Com os nosso profissionais qualificados na área de manutenção de motos, fazemos o máximo para a satisfação dos nosso clientes, somos uma empresa completa e estamos aqui para o bem da sua moto!</p>
             </div>
         </div>
     )

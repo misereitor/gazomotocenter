@@ -8,8 +8,8 @@ function Loja() {
                 <h2 className="h2-lider">Lider na região</h2>
                 <div className="produtos">
                     <div className="parceiros">
-                        <h3>Trabalhamos com várias marcas parceiras</h3>
-                        <div className="lista-parceiros">
+                        <h3 data-anime="botton">Trabalhamos com várias marcas parceiras</h3>
+                        <div className="lista-parceiros" data-anime="left">
                             <ul>
                                 <li>HONDA</li>
                                 <li>YAMAHA</li>
@@ -35,8 +35,8 @@ function Loja() {
                         </div>
                     </div>
                     <div className="vendas">
-                        <h3>Trabalhamos com vendas de peças, serviços, Motos usadas e muito mais</h3>
-                        <div className="lista-produtos">
+                        <h3 data-anime="botton">Trabalhamos com vendas de peças, serviços, Motos usadas e muito mais</h3>
+                        <div className="lista-produtos" data-anime="rigth">
                             <ul>
                                 <li>Pneu Pirelli</li>
                                 <li>Bateria</li>
